@@ -39,6 +39,13 @@ public class Ejemplo022 {
                     arreglo1[f][c] = numero;
                 }
             }
+        /*
+            Se ingreso un numero para que este con la condicional se vaya mmoviendo
+            y asignando valor a las posiciones donde este en ese momento, pero 
+            ya que se debe ver que si es par y mayor a 10 se hace una condicional
+            donde al ingresar el numero la condicional vea que si cumple con ello
+            el valor ingresado se anule y se designe como 0
+        */
         }
 
         for (int fila = 0; fila < arreglo1.length; fila++) {

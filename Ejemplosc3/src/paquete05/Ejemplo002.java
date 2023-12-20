@@ -9,9 +9,9 @@ package paquete05;
  * @author LAB.ELECT
  */
 public class Ejemplo002 {
-    /* Se hace una tabla para identificar el patron que tienen en su posicion
-       los numeros a sumar para asi poder separarlos y llevar a cabo su suma 
-       sin que se sumen los demas valores
+    /* Se hace una tabla para identificar el patrón que tienen en su posición
+       los números a sumar para así poder separarlos y llevar a cabo su suma 
+       sín que se sumen los demas valores
     */
     public static void main(String[] args) {
         int suma = 0;

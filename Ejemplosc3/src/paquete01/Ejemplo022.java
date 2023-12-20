@@ -40,10 +40,10 @@ public class Ejemplo022 {
                 }
             }
         /*
-            Se ingreso un numero para que este con la condicional se vaya mmoviendo
-            y asignando valor a las posiciones donde este en ese momento, pero 
+            Se ingreso un número para que este con la condicional se vaya moviendo
+            y asignando valor a las posiciones donde esté en ese momento, pero 
             ya que se debe ver que si es par y mayor a 10 se hace una condicional
-            donde al ingresar el numero la condicional vea que si cumple con ello
+            donde al ingresar el número la condicional vea que si cumple con ello
             el valor ingresado se anule y se designe como 0
         */
         }

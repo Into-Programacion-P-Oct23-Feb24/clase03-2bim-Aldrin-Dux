@@ -12,7 +12,7 @@ import java.util.Locale;
  *
  * @author reroes
  */
-public class Ejemplo02 {
+public class Ejemplo022 {
 
     /**
      * @param args the command line arguments
@@ -31,9 +31,13 @@ public class Ejemplo02 {
         for (int f = 0; f < arreglo1.length; f++) {
             for (int c = 0; c < arreglo1[f].length; c++) {
                 System.out.printf("ingresar valor de la posicion [%d][%d]\n",
-                        f,c);
-                int numero = entrada.nextInt();
-                arreglo1[f][c] = numero;
+                        f, c);
+                int numero = entrada.nextInt(); 
+                if (numero >= 10 && numero%2 == 0) {
+                    arreglo1[f][c] = 0;
+                }else{
+                    arreglo1[f][c] = numero;
+                }
             }
         }
 

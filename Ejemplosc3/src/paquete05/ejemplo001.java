@@ -9,5 +9,12 @@ package paquete05;
  * @author LAB.ELECT
  */
 public class Ejemplo001 {
-    
+
+    public static void main(String[] args) {
+        int[] arreglo = new int[2];
+        for (int i = 0; i < arreglo.length; i++) {
+            System.out.println("hola");
+        }
+    }
+
 }
